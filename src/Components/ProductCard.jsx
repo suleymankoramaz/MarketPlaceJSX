@@ -15,7 +15,7 @@ const ProductCard = ({ product }) => {
   return (
     <div onClick={handleProductClick} className='card'>
         <img src={product.images[0]} width='50%' alt={product.title} className='img2'/>
-        <h2>{product.title} </h2>
+        <h3>{product.title} </h3>
     </div>
   );
 };
