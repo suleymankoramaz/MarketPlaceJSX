@@ -1,10 +1,13 @@
 .card {
   text-align: center;
-  border-style:groove ;
+  height: 100%;
+  width: 80%;
+  padding: 5%;
 }
 
 .img2 {
-  border-radius: 5%;
-  border-color: grey;
-  border-style: groove;
+  float: left;
+  width: 65%;
+  height: 65%;
+  object-fit:scale-down;
 }

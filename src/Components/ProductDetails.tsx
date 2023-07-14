@@ -9,7 +9,7 @@ const ProductDetails = () => {
       <div className="details">
         <h1>{productStore.selectedProduct.title} </h1>
         <h4>{productStore.selectedProduct.description} </h4>
-        <img src={productStore.selectedProduct.images[1]} width='100%' alt={productStore.selectedProduct.title} className='img1'/>
+        <img src={productStore.selectedProduct.images[2]} width='100%' alt={productStore.selectedProduct.title} className='img1'/>
         <ul>
           <li typeof='none'>
             <span>Price: </span> {productStore.selectedProduct.price} <span>$</span>
